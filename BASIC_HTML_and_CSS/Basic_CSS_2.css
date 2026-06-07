@@ -1,0 +1,16 @@
+h1 {
+	background-color: white;
+	color:FireBrick;
+	text-decoration: underline  overline;
+	font-size: 1000%;
+	text-align: center;
+	text-shadow: 3px 3px 10px black;
+}
+p {
+	background-color: white;
+	color:Chocolate;
+	text-decoration-style: wavy;
+	font-style: italic;
+	text-align: center;
+	font-size: 100%;
+}
