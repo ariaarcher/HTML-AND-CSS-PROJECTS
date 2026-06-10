@@ -8,14 +8,17 @@
 h1 {
 	text-align: center;
 	text-shadow: 1px 1px 2px orange;
-	color:red
+	color:red;
+	margin-bottom: 0;
 }
 
 h2 {
 	text-align: center;
-	text-shadow: 1px 1px 2px blue;
+	text-shadow: 0px 2px 3px SkyBlue;
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
-	color: DarkTurquoise;
+	color: royalblue ;
+	margin-bottom: 0;
+	margin-top: 20px;
 }
 
 
@@ -23,7 +26,10 @@ ol {
 	list-style-type: upper-roman;
 	width: max-content;
 	margin-inline: auto;
-	color: red;
+	color: MediumVioletRed;
+	line-height: 2;
+	font-weight: bold;
+	margin-top: 2px;
 }
 
 
@@ -33,7 +39,10 @@ ul {
 	width: max-content;
 	margin-inline: auto;
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
-	color: DarkTurquoise
+	color: DarkTurquoise;
+	line-height: 2;
+	font-weight: bold;
+	margin-top: 2px;
 }
 
 em {
