@@ -88,6 +88,14 @@ h3{
     animation-duration: 4s;
 }
 
+blockquote{
+    text-align: center;
+    color:#0a3f63;
+    font-size: 25px;
+    padding-top:20px;
+    font-style: italic;
+}
+
 /*BODY CONTENT*/
 
 img{
