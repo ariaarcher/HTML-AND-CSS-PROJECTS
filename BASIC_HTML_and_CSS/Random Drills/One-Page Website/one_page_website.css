@@ -1,0 +1,102 @@
+/*Import Cherry Bomb One Font from Google Fonts*/
+    @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
+
+/*FONT STYLING*/
+
+h1 {
+    font-family: 'Cherry Bomb One', sans-serif; 
+    font-size: 130px;
+    color: rgb(9, 193, 218);
+    text-align: center;
+    outline: 1px black;
+    text-shadow: 0px 2px 4px rgb(213, 64, 250);
+}
+
+h2 {
+    font-family: 'Cherry Bomb One', sans-serif; 
+    font-size: 50px;
+    text-decoration: underline;
+    color: rgb(9, 193, 218);
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(213, 64, 250);
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Cherry Bomb One', sans-serif; 
+    font-size: 40px;
+    color: rgb(9, 193, 218);
+    text-shadow: 1px 1px 2px rgb(213, 64, 250)
+}
+
+
+p {
+    font-family: 'Cherry Bomb One', sans-serif; 
+    font-size: 30px;
+    color:rgb(213, 64, 250);
+    text-align: center;
+}
+
+
+a, li {
+    font-family: 'Cherry Bomb One', sans-serif; 
+    font-size: 30px;
+    color: rgb(9, 193, 218);
+}
+
+/*NAVBAR CENTERING*/
+ul {
+    width: fit-content;
+    margin: auto;
+}
+
+/*BACKGROUND COLOR*/
+body {
+  background-color: rgb(252, 252, 236);
+}
+
+/*IMAGE STYLING*/
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*VIDEO CENTER*/
+#catvid {
+    text-align: center;
+}
+
+/*SUBMIT SECTION*/
+form input{
+    font-family:'Courier New, Courier, monospace';
+    font-size: 15px;
+    color: rgb(165, 165, 165);
+    border-radius: 5px;
+    padding: 3px;
+    margin: 10px 15px 10px 0px;
+    transition: 0.3s ease-out; /*Transitions back to a light grey when a user clicks away from an input field*/
+}
+
+form input[type="url"]{
+    width: 500px;
+}
+
+form input:focus{
+    border: 2px solid rgb(9, 193, 218);
+    color: black;
+    outline: none; /*Removes default border added when the focus pseudo class is triggered*/
+    transition: 0.3s ease-out;
+}
+
+.submit{
+    width: 550px;
+    margin: auto;
+    text-align: left;
+}

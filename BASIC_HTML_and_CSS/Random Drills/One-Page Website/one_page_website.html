@@ -5,17 +5,19 @@
     <meta charset="UTF-8">
     <meta name="Amusing Cats" content="Random funny cats from the internet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link href="one_page_website.css" rel="stylesheet">
 </head>
 <body>
     <!--HEADER-->
     <h1>Amusing Cats</h1>
     <p>Hi everyone!<br>This is a small collection of cats and cartoons I find mildy amusing. Enjoy~</p>
     <!--NAVBAR-->
-        <nav>
+        <nav class="navbar">
             <ul>
-                <a href="#catpic"><li>Cat Pictures</li></a>
-                <a href="#catcartoon"><li>Cat Cartoons</li></a>
-                <a href="#catvid"><li>Cat Videos</li></a>
+                <li><a href="#catpic">Cat Pictures</a></li>
+                <li><a href="#catcartoon">Cat Cartoons</a></li>
+                <li><a href="#catvid">Cat Videos</a></li>
             </ul>
         </nav>
     <!--1st Section - Cat Pictures-->
@@ -24,7 +26,7 @@
                 <h2>Cat Pictures</h2>
                     <div>
                         <p>&quot;Beware. This is highly entertaining.&quot;</p>
-                        <img src="amused_cat.png" alt="Amused Cat Picture"> 
+                        <img src="amused_cat.png" alt="Unamused Cat Picture"> 
                     </div>
                     <div>
                         <p>&quot;I'm excited!&quot;</p>
@@ -37,25 +39,26 @@
             <div id="catcartoon">
                <h2>Cat Cartoons</h2> 
                <img src="cat_cartoon.png" alt="Cat tipping over glass cartoon">
-               <img src="cat_cartoon1.png" alt="Cat waking up human">
+               <img src="cat_cartoon1.png" alt="Cat waking up human cartoon">
             </div>
         </section>
     <!--3rd Section - Cat Videos-->
         <section>
             <div id="catvid">
                 <h2>Cat Videos</h2>
-                <iframe src="https://www.youtube.com/watch?v=sppNnsF0gUk" title="Funny Cat Video Compilation 2025"></iframe>
-                <iframe src="https://www.youtube.com/watch?v=akb5iBze2PE" title="Funny Cat Video Compilation 2026"></iframe>
+                <iframe src="https://www.youtube.com/watch?v=sppNnsF0gUk" title="Funny Cat Video Compilation 2025" alt="Funny Cat compilation video 2025"></iframe>
+                <iframe src="https://www.youtube.com/watch?v=akb5iBze2PE" title="Funny Cat Video Compilation 2026" alt="Funny Cat compilation video 2026"></iframe>
             </div>
         </section>
 
     <!--Form-->
         <section>
-            <div>
+            <div class="submit">
                 <h3>Have any cat content for me?</h3>
                     <div>
                         <form>
-                            <input type="url" placeholder="Website Link"><br>                          
+                            <label for="website">Website Link:</label>
+                            <input type="url" id="website" placeholder="wwww.ThatWasFunny.com"><br>                          
                             <input type="submit" value="Submit">
                         </form>
                     </div>
